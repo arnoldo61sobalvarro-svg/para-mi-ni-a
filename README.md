@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Mi Niña ❤️</title>
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:black;
+    color:white;
+    font-family: 'Segoe UI', sans-serif;
+    text-align:center;
+    overflow:hidden;
+}
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+button{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d6d;
+    color:white;
+    cursor:pointer;
+}
+.hidden{
+    display:none;
+}
+.fade{
+    animation:fade 2s ease-in-out;
+}
+@keyframes fade{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+img{
+    width:250px;
+    border-radius:20px;
+    margin:10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container" id="inicio">
+<h1>Tengo algo importante que decirte...</h1>
+<button onclick="mostrar()">Toca aquí mi amor ❤️</button>
+</div>
+
+<div class="container hidden" id="contenido">
+<h1 class="fade">Desde que llegaste a mi vida...</h1>
+<p class="fade">Todo tiene más sentido.</p>
+
+<img src="https://i.imgur.com/8Km9tLL.jpg">
+<img src="https://i.imgur.com/4AiXzf8.jpg">
+
+<p class="fade">No eres solo una fecha en el calendario…</p>
+<p class="fade">Eres la razón por la que sonrío sin darme cuenta.</p>
+
+<h2 class="fade">Feliz cumpleaños mi niña ❤️</h2>
+
+<p class="fade">
+Gracias por existir. Gracias por ser tú.
+Y si algún día dudas de cuánto significas para mí,
+vuelve a esta página…
+porque aquí está escrito lo que mi corazón siente.
+</p>
+</div>
+
+<script>
+function mostrar(){
+document.getElementById("inicio").classList.add("hidden");
+document.getElementById("contenido").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
