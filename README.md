@@ -106,6 +106,8 @@ No sé qué nos depare el destino,
 pero siempre voy a agradecer
 el día en que llegaste a mi mundo.
 </p>
+<section class="fade">
+<img src="./19205.jpeg" style="width:260px;border-radius:20px;margin:15px;">
 </section>
 
 <section class="fade">
