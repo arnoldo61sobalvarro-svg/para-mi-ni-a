@@ -113,7 +113,7 @@ el día en que llegaste a mi mundo.
 <p>
 Que este nuevo año te abrace bonito.
 Que la vida te devuelva todo lo que das.
-Y que nunca olvides lo especial que eres.
+Y que nunca olvides lo especial que eres y cuanto te amo.
 </p>
 </section>
 
